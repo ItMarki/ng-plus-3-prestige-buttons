@@ -57,4 +57,32 @@
 	background: #CCCCCC;
 	color: #FFFFFF;
 }
+.box {
+	background: linear-gradient(#432EFE, #DAAFFE);
+	border: 2px solid transparent;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	animation: box 4s linear infinite
+}
+.box:hover {
+	border-color: rgba(255,255,255,0.85);
+	box-shadow: inset 0px 0px 12px 0px #ffffff;
+	cursor: pointer
+}
+@keyframes box { 
+	0%{
+		color: #0E0072;
+		text-shadow: 0px 0px 3px #0E0072, 0px 0px 6px #ffffff;
+	}
+	50% {
+		color: #2B188C;
+		text-shadow: 0px 0px 6px #2B188C, 0px 0px 6px #ffffff;
+	}
+	100%{
+		color: #0E0072;
+		text-shadow: 0px 0px 3px #0E0072, 0px 0px 6px #ffffff;
+	}
+}
 }
