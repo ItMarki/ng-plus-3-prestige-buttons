@@ -19,14 +19,14 @@
 	color: #FFFFFF;
 	background: #63CC00;
 	font-weight: bold;
-	border: 2px solid #4ADDE2;
+	border: 2px solid #59B200;
 	border-radius: 4px;
 	transition-duration: 0.2s;
 	cursor: pointer;
 }
 .infinity:hover {
 	color: #000000;
-	background: #4ADDE263CC00;
+	background: #59B200;
 }
 .eternity {
 	color: #b341e0;
