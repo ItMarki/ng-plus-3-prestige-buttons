@@ -4,16 +4,16 @@
 }
 .normal {
 	color: #000000;
-    background: #F2F2F2;
+    background: #ABB5E6;
 	font-weight: bold;
-    border: 2px solid #4980CC;
+    border: 2px solid #8488C4;
 	border-radius: 4px;
 	transition-duration: 0.2s;
 	cursor: pointer;
 }
 .normal:hover {
     color: #FFF;
-    background: #4980CC;
+    background: #8488C4;
 }
 .infinity {
 	color: #FFFFFF;
