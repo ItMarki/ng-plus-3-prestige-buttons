@@ -17,16 +17,16 @@
 }
 .infinity {
 	color: #FFFFFF;
-	background: #1F1F1F;
+	background: #63CC00;
 	font-weight: bold;
-	border: 2px solid #B67F33;
+	border: 2px solid #4ADDE2;
 	border-radius: 4px;
 	transition-duration: 0.2s;
 	cursor: pointer;
 }
 .infinity:hover {
 	color: #000000;
-	background: #B67F33;
+	background: #4ADDE2;
 }
 .eternity {
 	color: #b341e0;
