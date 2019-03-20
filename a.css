@@ -43,9 +43,9 @@
 	background: #3500DA;
 }
 .unima {
-	color: #32c832;
-	background: #0a640a;
-	border: 2px solid #32c832;
+	color: #000000;
+	background: #FFFFFF;
+	border: 2px solid #7F7F7F;
 	font-family: Typewriter;
 	font-weight: bold;
 	border-radius: 4px;
@@ -54,7 +54,7 @@
 }
 
 .unima:hover {
-	background: #32c832;
-	color: #0a640a;
+	background: #FFFFFF;
+	color: #000000;
 }
 }
