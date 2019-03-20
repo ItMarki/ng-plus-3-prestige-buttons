@@ -2,7 +2,7 @@
     font-family: Typewriter;
     src: url('MonospaceTypewriter.ttf');
 }
-.normal {
+.before {
 	color: #000000;
     background: #ABB5E6;
 	font-weight: bold;
@@ -11,11 +11,11 @@
 	transition-duration: 0.2s;
 	cursor: pointer;
 }
-.normal:hover {
+.before:hover {
     color: #FFF;
     background: #8488C4;
 }
-.infinity {
+.normal {
 	color: #FFFFFF;
 	background: #63CC00;
 	font-weight: bold;
@@ -24,11 +24,11 @@
 	transition-duration: 0.2s;
 	cursor: pointer;
 }
-.infinity:hover {
+.normal:hover {
 	color: #000000;
 	background: #59B200;
 }
-.eternity {
+.cosmos {
 	color: #b341e0;
 	background: black;
 	border: 2px solid #b341e0;
@@ -38,11 +38,11 @@
 	cursor: pointer;
 }
 
-.eternity:hover {
+.cosmos:hover {
 	color: #511568;
 	background: white;
 }
-.quantum {
+.unima {
 	color: #32c832;
 	background: #0a640a;
 	border: 2px solid #32c832;
@@ -53,7 +53,7 @@
 	cursor: pointer;
 }
 
-.quantum:hover {
+.unima:hover {
 	background: #32c832;
 	color: #0a640a;
 }
