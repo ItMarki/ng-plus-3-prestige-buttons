@@ -29,8 +29,8 @@
 	background: #59B200;
 }
 .cosmos {
-	color: #04004A;
-	background: #A900F2;
+	color: #FFFFE5;
+	background: #040041;
 	border: 2px solid #04004A;
 	font-weight: bold;
 	border-radius: 4px;
@@ -39,8 +39,8 @@
 }
 
 .cosmos:hover {
-	color: #3500DA;
-	background: #FEFDFD;
+	color: #FEFDFD;
+	background: #3500DA;
 }
 .unima {
 	color: #32c832;
