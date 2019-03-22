@@ -164,5 +164,35 @@
 	text-shadow: 0px 0px 3px #E2E2E2;
 	cursor: pointer
 }
+.metabox {
+	background: linear-gradient(#BCD101, #255001);
+	border: 2px solid transparent;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	animation: box 4s linear infinite
+}
+
+.metabox:hover {
+	border-color: rgba(0,0,0,0.85);
+	box-shadow: inset 0px 0px 12px 0px #000000;
+	cursor: pointer
+}
+
+@keyframes metabox { 
+	0%{
+		color: #F1FF8D;
+		text-shadow: 0px 0px 3px #F1FF8D, 0px 0px 6px #000000;
+	}
+	50% {
+		color: #D4E773;
+		text-shadow: 0px 0px 6px #D4E773, 0px 0px 6px #000000;
+	}
+	100%{
+		color: #F1FF8D;
+		text-shadow: 0px 0px 3px #F1FF8D, 0px 0px 6px #000000;
+	}
+}
 
 }
