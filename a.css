@@ -150,8 +150,8 @@
 
 .line {
 	color: #000000;
-	text-shadow: 0px 0px 3px #FFBF00;
-	background: linear-gradient(#FF6A00, transparent 50%, #FF6A00 100%), radial-gradient(circle, #FFAA00, #FFD400 50%, #FFFF00 100%);
+	text-shadow: 0px 0px 3px #BDBDBD;
+	background: linear-gradient(#8B8B8B, transparent 50%, #8B8B8B 100%), radial-gradient(circle, #B0B0B0, #C9C9C9 50%, #E2E2E2 100%);
 	border: 2px solid transparent;
 	font-family: Typewriter;
 	font-weight: bold;
@@ -161,7 +161,7 @@
 
 .line:hover {
 	color: #ffffff;
-	text-shadow: 0px 0px 3px #FFFF00;
+	text-shadow: 0px 0px 3px #E2E2E2;
 	cursor: pointer
 }
 
