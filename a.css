@@ -148,4 +148,21 @@
 	cursor: pointer
 }
 
+.line {
+	color: #000000;
+	text-shadow: 0px 0px 3px #FFBF00;
+	background: linear-gradient(#FF6A00, transparent 50%, #FF6A00 100%), radial-gradient(circle, #FFAA00, #FFD400 50%, #FFFF00 100%);
+	border: 2px solid transparent;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s
+}
+
+.line:hover {
+	color: #ffffff;
+	text-shadow: 0px 0px 3px #FFFF00;
+	cursor: pointer
+}
+
 }
