@@ -164,8 +164,9 @@
 	text-shadow: 0px 0px 3px #E2E2E2;
 	cursor: pointer
 }
+
 .metabox {
-	background: linear-gradient(#BCD101, #255001);
+	background: linear-gradient(#2EFE43, #AFFEDA);
 	border: 2px solid transparent;
 	font-family: Typewriter;
 	font-weight: bold;
@@ -175,23 +176,23 @@
 }
 
 .metabox:hover {
-	border-color: rgba(0,0,0,0.85);
-	box-shadow: inset 0px 0px 12px 0px #000000;
+	border-color: rgba(255,255,255,0.85);
+	box-shadow: inset 0px 0px 12px 0px #ffffff;
 	cursor: pointer
 }
 
 @keyframes metabox { 
 	0%{
-		color: #F1FF8D;
-		text-shadow: 0px 0px 3px #F1FF8D, 0px 0px 6px #000000;
+		color: #00720E;
+		text-shadow: 0px 0px 3px #00720E, 0px 0px 6px #ffffff;
 	}
 	50% {
-		color: #D4E773;
-		text-shadow: 0px 0px 6px #D4E773, 0px 0px 6px #000000;
+		color: #188C2B;
+		text-shadow: 0px 0px 6px #188C2B, 0px 0px 6px #ffffff;
 	}
 	100%{
-		color: #F1FF8D;
-		text-shadow: 0px 0px 3px #F1FF8D, 0px 0px 6px #000000;
+		color: #00720E;
+		text-shadow: 0px 0px 3px #00720E, 0px 0px 6px #ffffff;
 	}
 }
 
