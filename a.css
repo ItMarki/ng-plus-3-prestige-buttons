@@ -99,3 +99,28 @@
     color: #BFBFBF;
     text-shadow: 0px 0px 3px #808080;
 }
+
+.rela {
+    color: #FFFFFF;
+    text-shadow: 0px 0px 3px #FFFF7F;
+    font-weight: bold;
+    background: linear-gradient(#FFFFFF, #FFFFA0, #FFFFFF);
+    animation: rela 3s linear infinite;
+    border: none;
+    border-radius: 0px;
+    transition-duration: 0.2s;
+    background-size: 100% 300%;
+}
+
+.rela:hover {
+    text-shadow: 0px 0px 6px #FFFF7F;
+}
+
+@keyframes rela { 
+	0%{
+	    background-position: 0% 0%, 0% 0%;
+	}
+	100%{
+	    background-position: 0% 0%, 300% 300%;
+	}
+}
