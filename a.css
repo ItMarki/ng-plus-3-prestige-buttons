@@ -58,3 +58,17 @@
     color: #4C0000;
     background: #7200E5;
 }
+
+.exotic {
+    color: linear-gradient(#A17FFF, #B200FF);
+    background: #4C0000;
+    font-weight: bold;
+    border: none;
+    border-radius: 0px;
+    transition-duration: 0.2s;
+}
+
+.exotic:hover {
+    color: #4C0000;
+    background: linear-gradient(#5E8000, #4DFF00);
+}
