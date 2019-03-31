@@ -18,8 +18,8 @@
 }
 
 .prestige {
-    color: #FFFFFF;
-    background: #999999;
+    color: #999999;
+    background: #000000;
     font-weight: bold;
     border: none;
     border-radius: 0px;
@@ -27,6 +27,6 @@
 }
 
 .prestige:hover {
-    color: #999999;
-    background: #FFFFFF;
+    color: #000000;
+    background: #999999;
 }
