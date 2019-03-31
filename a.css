@@ -3,17 +3,17 @@
     src: url('MonospaceTypewriter.ttf');
 }
 
-.before {
+.tab {
     color: #000000;
-    background: #ABB5E6;
+    background: #999999;
     font-weight: bold;
     border: none;
-    border-radius: 4px;
+    border-radius: 0px;
     transition-duration: 0.2s;
     cursor: pointer;
 }
 
-.before:hover {
-    color: #FFF;
-    background: #8488C4;
+.tab:hover {
+    color: #000000;
+    background: #BFBFBF;
 }
