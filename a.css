@@ -88,9 +88,8 @@
 
 .grav {
     color: #404040;
-    animation: grav 1s linear infinite;
-    background: radial-gradient(transparent, #000000), repeating-linear-gradient(#000000, #161616, #000000);
     font-weight: bold;
+    background: linear-gradient(#000000, transparent 50%, #000000 100%), radial-gradient(circle, #000000, #161616 50%, #000000 100%);
     border: none;
     border-radius: 0px;
     transition-duration: 0.2s;
@@ -99,13 +98,4 @@
 .grav:hover {
     color: #BFBFBF;
     text-shadow: 0px 0px 3px #808080;
-    background: radial-gradient(transparent, #000000), repeating-linear-gradient(#000000, #161616, #000000);
-}
-@keyframes grav{ 
-	0%{
-	    background-position: 50% 50%, 0% 0%;
-	}
-	100%{
-	    background-position: 50% 50%, 0% 200%;
-	}
 }
