@@ -10,7 +10,6 @@
     border: none;
     border-radius: 0px;
     transition-duration: 0.2s;
-    cursor: pointer;
 }
 
 .tab:hover {
