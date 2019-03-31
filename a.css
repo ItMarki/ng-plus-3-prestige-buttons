@@ -16,3 +16,17 @@
     color: #000000;
     background: #BFBFBF;
 }
+
+.prestige {
+    color: #FFFFFF;
+    background: #000000;
+    font-weight: bold;
+    border: none;
+    border-radius: 0px;
+    transition-duration: 0.2s;
+}
+
+.prestige:hover {
+    color: #000000;
+    background: #FFFFFF;
+}
