@@ -102,7 +102,7 @@
 
 .rela {
 	color: #FFFF60;
-	text-shadow: 0px 0px 3px #FFFF7F;
+	text-shadow: 0px 0px 3px #FFFFD0;
 	background: radial-gradient(transparent, #ffffff),  linear-gradient(#FFFFFF, #FFFF80, #FFFFFF);
 	border: none;
 	font-weight: bold;
@@ -113,7 +113,7 @@
 }
 
 .rela:hover {
-	text-shadow: 0px 0px 6px #FFFF7F;
+	text-shadow: 0px 0px 6px #FFFFD0;
 }
 
 @keyframes rela { 
