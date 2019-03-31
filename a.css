@@ -76,7 +76,7 @@
 .qua {
     color: #00C000;
     text-shadow: 0px 0px 3px #008000, 0px 0px 3px #004000;
-    background: linear-gradient(#00FF00, #00E000);
+    background: radial-gradient(circle, #00FF00, #00E000);
     font-weight: bold;
     border: none;
     border-radius: 0px;
@@ -85,5 +85,5 @@
 
 .qua:hover {
     color: #00D000;
-    background: linear-gradient(#00E000, #00F000);
+    background: radial-gradient(circle, #00E000, #00F000);
 }
