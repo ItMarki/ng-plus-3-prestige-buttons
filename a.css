@@ -72,3 +72,17 @@
     color: #FF00FF;
     background: linear-gradient(#5E8000, #4DFF00);
 }
+
+.qua {
+    color: #00C000;
+    background: linear-gradient(#00FF00, #00E000);
+    font-weight: bold;
+    border: none;
+    border-radius: 0px;
+    transition-duration: 0.2s;
+}
+
+.qua:hover {
+    color: #00D000;
+    background: linear-gradient(#00E000, #00F000);
+}
