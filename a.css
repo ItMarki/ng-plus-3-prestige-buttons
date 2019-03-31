@@ -61,7 +61,7 @@
 
 .exotic {
     color: #FF00FF;
-    background: linear-gradient(#A17FFF, #B200FF);
+    background: linear-gradient(#A17FFF, #B200FF, #A17FFF);
     font-weight: bold;
     border: none;
     border-radius: 0px;
@@ -70,7 +70,6 @@
 
 .exotic:hover {
     color: #FF00D0;
-    background: linear-gradient(#B200FF, #A17FFF);
 }
 
 .qua {
@@ -85,5 +84,4 @@
 
 .qua:hover {
     color: #00D000;
-    background: radial-gradient(circle, #00E000, #00F000);
 }
