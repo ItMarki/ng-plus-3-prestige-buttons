@@ -89,7 +89,7 @@
 .grav {
     color: #404040;
     font-weight: bold;
-    background: radial-gradient(circle, #000000, #323232 50%, #000000 100%);
+    background: radial-gradient(circle, #000000, #202020 12.5%, #000000, #202020 62.5%, #000000);
     border: none;
     border-radius: 0px;
     transition-duration: 0.2s;
