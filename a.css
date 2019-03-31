@@ -40,7 +40,7 @@
     transition-duration: 0.2s;
 }
 
-.sup {
+.sup:hover {
     color: #E5E5E5;
     background: #728599;
 }
