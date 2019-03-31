@@ -61,28 +61,16 @@
 
 .exotic {
     color: #FF00FF;
+    background: linear-gradient(#A17FFF, #B200FF);
     font-weight: bold;
     border: none;
     border-radius: 0px;
     transition-duration: 0.2s;
-    animation: exotic 2s linear infinite
 }
 
 .exotic:hover {
     color: #FF00D0;
     background: linear-gradient(#B200FF, #A17FFF);
-}
-
-@keyframes exotic { 
-	0%{
-		background: linear-gradient(#A17FFF, #B200FF);
-	}
-	50% {
-		background: linear-gradient(#B200FF, #A17FFF);
-	}
-	100%{
-		background: linear-gradient(#A17FFF, #B200FF);
-	}
 }
 
 .qua {
