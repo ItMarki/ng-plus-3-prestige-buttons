@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Typewriter;
+    src: url('MonospaceTypewriter.ttf');
+}
+
 .tab {
     color: #000000;
     background: #999999;
@@ -13,7 +18,7 @@
 }
 
 .prestige {
-    color: #999999;
+    color: #E5E5E5;
     background: #000000;
     font-weight: bold;
     border: none;
@@ -23,5 +28,5 @@
 
 .prestige:hover {
     color: #000000;
-    background: #999999;
+    background: #E5E5E5;
 }
