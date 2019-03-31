@@ -30,3 +30,17 @@
     color: #000000;
     background: #E5E5E5;
 }
+
+.sup {
+    color: #728599;
+    background: #E5E5E5;
+    font-weight: bold;
+    border: none;
+    border-radius: 0px;
+    transition-duration: 0.2s;
+}
+
+.sup {
+    color: #E5E5E5;
+    background: #728599;
+}
