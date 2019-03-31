@@ -44,3 +44,17 @@
     color: #E5E5E5;
     background: #728599;
 }
+
+.hyp {
+    color: #7200E5;
+    background: #4C0000;
+    font-weight: bold;
+    border: none;
+    border-radius: 0px;
+    transition-duration: 0.2s;
+}
+
+.hyp:hover {
+    color: #4C0000;
+    background: #7200E5;
+}
