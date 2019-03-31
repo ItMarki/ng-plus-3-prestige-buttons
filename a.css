@@ -124,3 +124,18 @@
 	    background-position: 0% 0%, 300% 300%;
 	}
 }
+
+.sing {
+	color: #ffffff;
+	text-shadow: 0px 0px 3px #ffffff;
+	background: radial-gradient(circle, #000000, #57007F 85%, #4C0000 100%);
+	border: none;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 0px;
+	transition-duration: 0.2s
+}
+.sing:hover {
+	color: #BF0000;
+	text-shadow: 0px 0px 6px #4C0000, 0px 0px 6px #4C0000, 0px 0px 6px #4C0000;
+}
