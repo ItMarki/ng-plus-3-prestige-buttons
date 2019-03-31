@@ -61,7 +61,7 @@
 
 .exotic {
     color: linear-gradient(#A17FFF, #B200FF);
-    background: #4C0000;
+    background: #FF00FF;
     font-weight: bold;
     border: none;
     border-radius: 0px;
@@ -69,6 +69,6 @@
 }
 
 .exotic:hover {
-    color: #4C0000;
+    color: #FF00FF;
     background: linear-gradient(#5E8000, #4DFF00);
 }
