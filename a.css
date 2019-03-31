@@ -60,8 +60,8 @@
 }
 
 .exotic {
-    color: linear-gradient(#A17FFF, #B200FF);
-    background: #FF00FF;
+    color: #FF00FF;
+    background: linear-gradient(#A17FFF, #B200FF);
     font-weight: bold;
     border: none;
     border-radius: 0px;
