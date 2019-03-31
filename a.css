@@ -101,7 +101,7 @@
 }
 
 .rela {
-	color: #FFFFFF;
+	color: #FFFF40;
 	text-shadow: 0px 0px 3px #FFFF7F;
 	background: radial-gradient(transparent, #ffffff),  linear-gradient(#FFFFFF, #FFFFA0, #FFFFFF);
 	border: none;
