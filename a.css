@@ -186,8 +186,8 @@
 	transition-duration: 0.2s
 }
 .frontier:hover {
-	color: #FFFFC0;
-	text-shadow: 0px 0px 6px #FFFFFF, 0px 0px 6px #FFFFFF, 0px 0px 3px #FFFFFF, 0px 0px 3px #FFFFFF;
+	color: #FFFF80;
+	text-shadow: 0px 0px 6px #FFFFFF, 0px 0px 3px #FFFFFF, 0px 0px 3px #FFFFFF;
 	cursor: pointer;
 }
 @keyframes frontier { 
