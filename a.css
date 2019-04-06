@@ -197,3 +197,30 @@
 }
 
 }
+
+.frontier {
+	color: #FFFFFF;
+	text-shadow: 0px 0px 3px #FFFF8C;
+	background: radial-gradient(transparent, #FFFFFF),  linear-gradient(#B400FF, #C800FF 25%, #DC00FF 50%, #FF00CC 100%);
+	border: 2px solid #ffffff;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	animation: meta 3s linear infinite;
+	background-size: 100% 300%;
+	transition-duration: 0.2s
+}
+
+.frontier:hover {
+	text-shadow: 0px 0px 6px #FFFFB2;
+	cursor: pointer;
+}
+
+@keyframes frontier { 
+	0%{
+	    background-position: 0% 0%, 0% 0%;
+	}
+	100%{
+	    background-position: 0% 0%, 300% 300%;
+	}
+}
