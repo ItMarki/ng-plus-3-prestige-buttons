@@ -110,7 +110,8 @@
 	animation: repeat 4s linear infinite
 }
 .repeat:hover {
-	      border-color: rgba(233,0,255,0.5);
+	      border-color: rgba(233,0,255,0.85);
+		box-shadow: inset 0px 0px 12px 0px #e900ff;
 }
 @keyframes repeat { 
 	0%{
@@ -167,21 +168,21 @@
 }
 .metabox:hover {
 	border-color: rgba(255,255,255,0.85);
-	box-shadow: inset 0px 0px 12px 0px #ffffff;
+	box-shadow: inset 0px 0px 12px 0px #FFFFFF;
 	cursor: pointer
 }
 @keyframes metabox { 
 	0%{
 		color: #00720E;
-		text-shadow: 0px 0px 3px #00720E, 0px 0px 6px #ffffff;
+		text-shadow: 0px 0px 3px #00720E, 0px 0px 6px #FFFFFF;
 	}
 	50% {
 		color: #188C2B;
-		text-shadow: 0px 0px 6px #188C2B, 0px 0px 6px #ffffff;
+		text-shadow: 0px 0px 6px #188C2B, 0px 0px 6px #FFFFFF;
 	}
 	100%{
 		color: #00720E;
-		text-shadow: 0px 0px 3px #00720E, 0px 0px 6px #ffffff;
+		text-shadow: 0px 0px 3px #00720E, 0px 0px 6px #FFFFFF;
 	}
 }
 .frontier {
