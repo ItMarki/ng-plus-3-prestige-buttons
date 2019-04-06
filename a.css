@@ -176,7 +176,7 @@
 .frontier {
 	color: #FFFFFF;
 	text-shadow: 0px 0px 3px #FFFF8C;
-	background: radial-gradient(transparent, #FFFFFF),  linear-gradient(#B400FF, #C800FF 25%, #DC00FF 50%, #FF00CC 100%);
+	background: radial-gradient(transparent, #FFFFFF),  linear-gradient(#B400FF, #C800FF 12.5%, #DC00FF 25%, #FF00CC 50%, #DC00FF 75%, #C800FF 87.5%, #B400FF 100%);
 	border: 2px solid #FFFFFF;
 	font-family: Typewriter;
 	font-weight: bold;
