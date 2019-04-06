@@ -206,7 +206,7 @@
 	font-family: Typewriter;
 	font-weight: bold;
 	border-radius: 4px;
-	animation: meta 3s linear infinite;
+	animation: frontier 3s linear infinite;
 	background-size: 100% 300%;
 	transition-duration: 0.2s
 }
