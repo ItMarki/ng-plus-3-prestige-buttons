@@ -210,3 +210,30 @@
 	    background-position: 0% 0%, 300% 300%;
 	}
 }
+.ext {
+	color: #000000;
+	text-shadow: 0px 0px 3px #FFFFFF, 0px 0px 3px #FFFFFF;
+	animation: ext 3s linear infinite;
+	border: 2px solid #1f1f1f;
+	background: radial-gradient(transparent, #000000), repeating-linear-gradient(90deg, #001900, #3AFFAF 16%, #F2FFF2 42%, #00E57E 64.25%, #002600 85.75%, #001900);
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	background-size: 200% 100%;
+}
+
+.ext:hover {
+	color: #FFFFFF;
+	border: 2px solid #F2F2F2;
+	text-shadow: 0px 0px 3px #000000, 0px 0px 3px #000000;
+}
+@keyframes ext{ 
+	0%{
+	    background-position: 0% 0%, 0% 0%;
+	}
+	100%{
+	    background-position: 0% 0%, 200% 200%;
+	}
+}
