@@ -212,7 +212,7 @@
 }
 .ext {
 	color: #000000;
-	text-shadow: 0px 0px 6px #FF0000, 0px 0px 3px #FFFFFF;
+	text-shadow: 0px 0px 6px #FF0000, 0px 0px 3px #7F0000;
 	animation: ext 3s linear infinite;
 	border: 2px solid #1f1f1f;
 	background: radial-gradient(transparent, #000000), repeating-linear-gradient(90deg, #190000, #B20000 16%, #3F0000 42%, #E50000 64.25%, #260000 85.75%, #190000);
@@ -225,8 +225,8 @@
 }
 
 .ext:hover {
-	color: #990000;
-	border: 2px solid #F2F2F2;
+	color: #C00000;
+	border: 2px solid #000000;
 	text-shadow: 0px 0px 6px #000000, 0px 0px 3px #000000;
 }
 @keyframes ext{ 
