@@ -215,7 +215,7 @@
 	text-shadow: 0px 0px 3px #FFFFFF, 0px 0px 3px #FFFFFF;
 	animation: ext 3s linear infinite;
 	border: 2px solid #1f1f1f;
-	background: radial-gradient(transparent, #000000), repeating-linear-gradient(90deg, #001900, #00B200 16%, #F2FFF2 42%, #00E500 64.25%, #002600 85.75%, #001900);
+	background: radial-gradient(transparent, #000000), repeating-linear-gradient(90deg, #190000, #B20000 16%, #FFE5E5 42%, #E50000 64.25%, #260000 85.75%, #190000);
 	font-family: Typewriter;
 	font-weight: bold;
 	border-radius: 4px;
