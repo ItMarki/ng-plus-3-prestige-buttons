@@ -180,7 +180,7 @@
 .gmast {
 	color: #C23FFF;
 	text-shadow: 0px 0px 3px #EECCFF;
-	background: radial-gradient(transparent, #ffffff),  linear-gradient(#FFFFFF, #FFFF80, #DE99FF, #FFFF80, #FFFFFF);
+	background: radial-gradient(transparent, #ffffff),  linear-gradient(#FFFFFF, #DE99FF, #FF66FF, #DE99FF, #FFFFFF);
 	border: none;
 	font-weight: bold;
 	border-radius: 0px;
