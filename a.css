@@ -177,3 +177,25 @@
 	color: #990099;
 	text-shadow: 0px 0px 3px #B200B2, 0px 0px 3px #CC00CC
 }
+.gmast {
+	color: #C23FFF;
+	text-shadow: 0px 0px 3px #EECCFF;
+	background: radial-gradient(transparent, #ffffff),  linear-gradient(#FFFFFF, #FFFF80, #DE99FF, #FFFF80, #FFFFFF);
+	border: none;
+	font-weight: bold;
+	border-radius: 0px;
+	animation: rela 3s linear infinite;
+	background-size: 100% 300%;
+	transition-duration: 0.2s
+}
+.gmast:hover {
+	text-shadow: 0px 0px 6px #EECCFF, 0px 0px 3px #FFBFFF;
+}
+@keyframes gmast { 
+	0%{
+	    background-position: 0% 0%, 0% 0%;
+	}
+	100%{
+	    background-position: 0% 0%, 300% 300%;
+	}
+}
