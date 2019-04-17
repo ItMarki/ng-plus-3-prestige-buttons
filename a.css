@@ -179,7 +179,7 @@
 }
 .gmast {
 	color: #C23FFF;
-	text-shadow: 0px 0px 3px #EECCFF;
+	text-shadow: 0px 0px 3px #D47FFF;
 	background: linear-gradient(#FF7FFF, #CE66FF, #FF4CFF, #CE66FF, #FF7FFF);
 	border: none;
 	font-weight: bold;
@@ -189,7 +189,7 @@
 	transition-duration: 0.2s
 }
 .gmast:hover {
-	text-shadow: 0px 0px 6px #EECCFF, 0px 0px 3px #FFBFFF;
+	text-shadow: 0px 0px 6px #D47FFF, 0px 0px 3px #FF99FF;
 }
 @keyframes gmast { 
 	0%{
