@@ -2,7 +2,6 @@
     font-family: Typewriter;
     src: url('MonospaceTypewriter.ttf');
 }
-
 .tab {
     color: #000000;
     background: #999999;
@@ -11,12 +10,10 @@
     border-radius: 0px;
     transition-duration: 0.2s;
 }
-
 .tab:hover {
     color: #000000;
     background: #BFBFBF;
 }
-
 .prestige {
     color: #E5E5E5;
     background: #000000;
@@ -25,12 +22,10 @@
     border-radius: 0px;
     transition-duration: 0.2s;
 }
-
 .prestige:hover {
     color: #000000;
     background: #E5E5E5;
 }
-
 .sup {
     color: #728599;
     background: #E5E5E5;
@@ -39,12 +34,10 @@
     border-radius: 0px;
     transition-duration: 0.2s;
 }
-
 .sup:hover {
     color: #E5E5E5;
     background: #728599;
 }
-
 .hyp {
     color: #7200E5;
     background: #4C0000;
@@ -53,12 +46,10 @@
     border-radius: 0px;
     transition-duration: 0.2s;
 }
-
 .hyp:hover {
     color: #4C0000;
     background: #7200E5;
 }
-
 .exotic {
     color: #FF00FF;
     background: linear-gradient(#A17FFF, #B200FF, #A17FFF);
@@ -67,11 +58,9 @@
     border-radius: 0px;
     transition-duration: 0.2s;
 }
-
 .exotic:hover {
     color: #FF0080;
 }
-
 .qua {
     color: #00C000;
     text-shadow: 0px 0px 3px #008000, 0px 0px 3px #004000;
@@ -81,11 +70,9 @@
     border-radius: 0px;
     transition-duration: 0.2s;
 }
-
 .qua:hover {
     color: #00E000;
 }
-
 .grav {
     color: #808080;
     font-weight: bold;
@@ -94,12 +81,10 @@
     border-radius: 0px;
     transition-duration: 0.2s;
 }
-
 .grav:hover {
     color: #BFBFBF;
     text-shadow: 0px 0px 3px #808080;
 }
-
 .rela {
 	color: #FFFF60;
 	text-shadow: 0px 0px 3px #FFFFD0;
@@ -111,11 +96,9 @@
 	background-size: 100% 300%;
 	transition-duration: 0.2s
 }
-
 .rela:hover {
 	text-shadow: 0px 0px 6px #FFFFD0;
 }
-
 @keyframes rela { 
 	0%{
 	    background-position: 0% 0%, 0% 0%;
@@ -124,7 +107,6 @@
 	    background-position: 0% 0%, 300% 300%;
 	}
 }
-
 .sing {
 	color: #FFFFFF;
 	text-shadow: 0px 0px 3px #FFFFFF;
@@ -136,10 +118,9 @@
 	transition-duration: 0.2s
 }
 .sing:hover {
-	color: #BF0000;
+	color: #4800A0;
 	text-shadow: 0px 0px 3px #4C0000, 0px 0px 3px #4C0000, 0px 0px 3px #4C0000
 }
-
 .abs {
 	color: #550000;
 	text-shadow: 0px 0px 3px #7F0000, 0px 0px 3px #990000;
@@ -150,7 +131,6 @@
 	border-radius: 0px;
 	transition-duration: 0.2s;
 }
-
 .abs:hover {
 	color: #800000;
 	text-shadow: 0px 0px 3px #B20000, 0px 0px 3px #CC0000
