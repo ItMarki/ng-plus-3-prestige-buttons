@@ -136,9 +136,9 @@
 	text-shadow: 0px 0px 3px #B20000, 0px 0px 3px #CC0000
 }
 .extre {
-	color: #6FD800;
-	text-shadow: 0px 0px 3px #407F00, 0px 0px 3px #4D9900;
-	background: #80FF00;
+	color: #005500;
+	text-shadow: 0px 0px 3px #007F00, 0px 0px 3px #009900;
+	background: #00FF00;
 	border: none;
 	font-family: Typewriter;
 	font-weight: bold;
@@ -146,6 +146,6 @@
 	transition-duration: 0.2s;
 }
 .extre:hover {
-	color: #408000;
-	text-shadow: 0px 0px 3px #59B200, 0px 0px 3px #66CC00
+	color: #008000;
+	text-shadow: 0px 0px 3px #00B200, 0px 0px 3px #00CC00
 }
