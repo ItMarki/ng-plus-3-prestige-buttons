@@ -7,6 +7,10 @@ body {
 	margin: 0;
 	line-height: 1
 }
+.longButton {
+	width: 192px;
+	height: 24px
+}
 .tab {
     color: #000000;
     background: #999999;
