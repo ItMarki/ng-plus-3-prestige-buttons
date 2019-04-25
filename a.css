@@ -251,3 +251,28 @@
 	border-color: #000000;
 	cursor: pointer;
 }
+.corruption {
+	color: #000000;
+	text-shadow: 0px 0px 3px #660000;
+	background: radial-gradient(transparent, #3F0000),  linear-gradient(#B20000, #CC0000 12.5%, #E50000 25%, #FF0000 50%, #E50000 75%, #CC0000 87.5%, #B20000 100%);
+	border: 2px solid #FFFFFF;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	animation: corruption 3s linear infinite;
+	background-size: 100% 300%;
+	transition-duration: 0.2s
+}
+.corruption:hover {
+	color: #200000;
+	text-shadow: 0px 0px 6px #7F0000, 0px 0px 3px #7F0000;
+	cursor: pointer;
+}
+@keyframes corruption { 
+	0%{
+	    background-position: 0% 0%, 0% 0%;
+	}
+	100%{
+	    background-position: 0% 0%, 300% 300%;
+	}
+}
