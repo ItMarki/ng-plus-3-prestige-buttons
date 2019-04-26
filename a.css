@@ -2,175 +2,220 @@
     font-family: Typewriter;
     src: url('MonospaceTypewriter.ttf');
 }
-.normal {
+.before {
 	color: #000000;
-    background: #F2F2F2;
+    background: #ABB5E6;
 	font-weight: bold;
-    border: 2px solid #4980CC;
+    border: 2px solid #8488C4;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+.before:hover {
+    color: #FFF;
+    background: #8488C4;
+}
+.normal {
+	color: #FFFFFF;
+	background: #63CC00;
+	font-weight: bold;
+	border: 2px solid #59B200;
 	border-radius: 4px;
 	transition-duration: 0.2s;
 	cursor: pointer;
 }
 .normal:hover {
-    color: #FFF;
-    background: #4980CC;
-}
-.infinity {
-	color: #FFFFFF;
-	background: #1F1F1F;
-	font-weight: bold;
-	border: 2px solid #B67F33;
-	border-radius: 4px;
-	transition-duration: 0.2s;
-	cursor: pointer;
-}
-.infinity:hover {
 	color: #000000;
-	background: #B67F33;
+	background: #59B200;
 }
-.eternity {
-	color: #b341e0;
-	background: black;
-	border: 2px solid #b341e0;
+.cosmos {
+	color: #FFFFE5;
+	background: #040041;
+	border: 2px solid #04004A;
 	font-weight: bold;
 	border-radius: 4px;
 	transition-duration: 0.2s;
 	cursor: pointer;
 }
-
-.eternity:hover {
-	color: #511568;
-	background: white;
+.cosmos:hover {
+	color: #FEFDFD;
+	background: #3500DA;
 }
-.quantum {
-	color: #32c832;
-	background: #0a640a;
-	border: 2px solid #32c832;
+.unima {
+	color: #000000;
+	background: #FFFFFF;
+	border: 2px solid #7F7F7F;
 	font-family: Typewriter;
 	font-weight: bold;
 	border-radius: 4px;
 	transition-duration: 0.2s;
 	cursor: pointer;
 }
-
-.quantum:hover {
-	background: #32c832;
-	color: #0a640a;
+.unima:hover {
+	background: #CCCCCC;
+	color: #FFFFFF;
 }
-.ghostold {
-	color: #715fff;
-	text-shadow: 0px 0px 3px #f91eff, 0px 0px 3px #bfbfbf;
-	background: #320633;
-	border: 2px solid #f91eff;
+.box {
+	background: linear-gradient(#432EFE, #DAAFFE);
+	border: 2px solid #4832FE;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	animation: box 3s linear infinite
+}
+.box:hover {
+	border-color: rgba(255,255,255,0.85);
+	box-shadow: inset 0px 0px 12px 0px #FFFFFFF;
+	cursor: pointer
+}
+@keyframes box { 
+	0%{
+		color: #0E0072;
+		text-shadow: 0px 0px 3px #0E0072, 0px 0px 6px #FFFFFF;
+	}
+	50% {
+		color: #2B188C;
+		text-shadow: 0px 0px 6px #2B188C, 0px 0px 6px #FFFFFF;
+	}
+	100%{
+		color: #0E0072;
+		text-shadow: 0px 0px 3px #0E0072, 0px 0px 6px #FFFFFF;
+	}
+}
+.again {
+	color: #8F00BF;
+	text-shadow: 0 0 1px #7900B2, 0 0 2px #8B00CC, 0 0 3px #9C00E5;
+	background: radial-gradient(closest-side,#D400FF 0,#E900FF 33%,#FF00FF 100%);
+	border: 2px solid #FF0CFF;
 	font-family: Typewriter;
 	font-weight: bold;
 	border-radius: 4px;
 	transition-duration: 0.2s;
 	cursor: pointer;
 }
-.ghostold:hover {
-	color: #161333;
-	text-shadow: 0px 0px 3px #f91eff, 0px 0px 3px #bfbfbf;
-	background: #f91eff;
-	border: 2px solid #f91eff;
+.again:hover {
+	color: #C366FF;
+	text-shadow: 0 0 1px #7900B2, 0 0 2px #8B00CC, 0 0 3px #9C00E5;
+	border: 2px solid #FF0CFF;
 }
-
-.ghost {
-	background: linear-gradient(#0c001e, #3a003f);
+.repeat {
+	background: linear-gradient(#270084, #6000AF 50%, #1900D3 100%);
+	border: 2px solid #00007F;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	animation: repeat 3s linear infinite
+}
+.repeat:hover {
+	      border-color: rgba(233,0,255,0.85);
+		box-shadow: inset 0px 0px 12px 0px #e900ff;
+}
+@keyframes repeat { 
+	0%{
+		color: #FFFFFF;
+		text-shadow: 0px 0px 3px #FFFFD6, 0px 0px 6px #FFFF9E;
+	}
+	50% {
+		color: #FFFFD0;
+		text-shadow: 0px 0px 6px #FDAFFF, 0px 0px 6px #CD4FFF;
+	}
+	100%{
+		color: #FFFFFF;
+		text-shadow: 0px 0px 3px #FFFFD6, 0px 0px 6px #FFFF9E;
+	}
+}
+.sight {
+	color: #000000;
+	text-shadow: 0px 0px 3px #FFBF00;
+	background: linear-gradient(#FF6A00, transparent 50%, #FF6A00 100%), radial-gradient(circle, #FFAA00, #FFD400 50%, #FFFF00 100%);
 	border: 2px solid transparent;
 	font-family: Typewriter;
 	font-weight: bold;
 	border-radius: 4px;
-	transition-duration: 0.2s;
-	animation: ghost 4s linear infinite
+	transition-duration: 0.2s
 }
-.ghost:hover {
-	border-color: rgba(255,255,255,0.5);
-	box-shadow: inset 0px 0px 12px 0px #ffffff;
+.sight:hover {
+	color: #ffffff;
+	text-shadow: 0px 0px 3px #FFFF00;
 	cursor: pointer
 }
-@keyframes ghost { 
+.line {
+	color: #000000;
+	text-shadow: 0px 0px 3px #BDBDBD;
+	background: linear-gradient(#8B8B8B, transparent 50%, #8B8B8B 100%), radial-gradient(circle, #B0B0B0, #C9C9C9 50%, #E2E2E2 100%);
+	border: 2px solid transparent;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s
+}
+.line:hover {
+	color: #ffffff;
+	text-shadow: 0px 0px 3px #E2E2E2;
+	cursor: pointer
+}
+.metabox {
+	background: linear-gradient(#2EFE43, #AFFEDA);
+	border: 2px solid #32FE48;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	animation: metabox 3s linear infinite
+}
+.metabox:hover {
+	border-color: rgba(255,255,255,0.85);
+	box-shadow: inset 0px 0px 12px 0px #FFFFFF;
+	cursor: pointer
+}
+@keyframes metabox { 
 	0%{
-		color: #e900ff;
-		text-shadow: 0px 0px 3px #e900ff, 0px 0px 6px #ffffff;
+		color: #00720E;
+		text-shadow: 0px 0px 3px #00720E, 0px 0px 6px #FFFFFF;
 	}
 	50% {
-		color: #6a00ff;
-		text-shadow: 0px 0px 6px #6a00ff, 0px 0px 6px #ffffff;
+		color: #188C2B;
+		text-shadow: 0px 0px 6px #188C2B, 0px 0px 6px #FFFFFF;
 	}
 	100%{
-		color: #e900ff;
-		text-shadow: 0px 0px 3px #e900ff, 0px 0px 6px #ffffff;
+		color: #00720E;
+		text-shadow: 0px 0px 3px #00720E, 0px 0px 6px #FFFFFF;
 	}
 }
-
-.hadron {
-	color: #ffffff;
-	animation: hadronize 1.5s linear infinite;
-	border: 2px solid #1f1f1f;
-	background: radial-gradient(transparent, #000000), repeating-linear-gradient(#990000, #009900, #000099, #990000);
-	background-size: 100% 200%;
+.frontier {
+	color: #FFFFFF;
+	text-shadow: 0px 0px 3px #FFFF66;
+	background: radial-gradient(transparent, #FFFFFF),  linear-gradient(#9F3FFF, #BF3FFF 12.5%, #E23FFF 25%, #FF3FFF 50%, #E23FFF 75%, #BF3FFF 87.5%, #9F3FFF 100%);
+	border: 2px solid #FFFFFF;
 	font-family: Typewriter;
 	font-weight: bold;
 	border-radius: 4px;
-	transition-duration: 0.2s;
+	animation: frontier 3s linear infinite;
+	background-size: 100% 300%;
+	transition-duration: 0.2s
+}
+.frontier:hover {
+	color: #FFFFD8;
+	text-shadow: 0px 0px 6px #FFFFFF, 0px 0px 3px #FFFFFF;
 	cursor: pointer;
 }
-
-.hadron:hover {
-	color: #000000;
-	animation: hadronize 1.5s linear infinite;
-	border: 2px solid #bfbfbf;
-	text-shadow: 0px 0px 3px #ffffff, 0px 0px 3px #ffffff;
-	font-weight: bold;
-	background: radial-gradient(transparent, #000000), repeating-linear-gradient(#990000, #009900, #000099, #990000);
-	background-size: 100% 200%;
-}
-@keyframes hadronize{ 
+@keyframes frontier { 
 	0%{
-	    background-position: 50% 50%, 0% 0%;
+	    background-position: 0% 0%, 0% 0%;
 	}
 	100%{
-	    background-position: 50% 50%, 0% 200%;
+	    background-position: 0% 0%, 300% 300%;
 	}
 }
-.star {
-	color: #7f6f1f;
-	text-shadow: 0 0 1px #000000, 0 0 2px #7f7f7f, 0 0 3px #ffffff;
-	background: radial-gradient(closest-side,#ff5400 0,#ff9021 33%,#ffdf3f 100%);
-	border: 2px solid #ffdf3f;
-	font-family: Typewriter;
-	font-weight: bold;
-	border-radius: 4px;
-	transition-duration: 0.2s;
-	cursor: pointer;
-}
-.star:hover {
-	color: #ffffff;
-	text-shadow: 0 0 1px #ffdf3f, 0 0 2px #7f6f1f, 0 0 3px #000000;
-	background: radial-gradient(closest-side,#ff5400 0,#ff9021 33%,#ffdf3f 100%);
-	border: 2px solid #ffdf3f;
-}
-.universe {
-	color: #7fbfff;
-	text-shadow: 0 0 3px #7fbfff, 0 0 3px #7fbfff, 0 0 4px #000000;
-	background: radial-gradient(closest-side,transparent 0,transparent 50%,#000000 100%), linear-gradient(#000000, #3f5f7f);
-	border: 2px solid #000000;
-	font-family: Typewriter;
-	font-weight: bold;
-	border-radius: 4px;
-	transition-duration: 0.2s;
-	cursor: pointer;
-}
-.universe:hover {
-	text-shadow: 0 0 9px #7fbfff, 0 0 9px #7fbfff, 0 0 12px #000000;
-}
-.fractal {
+.ext {
 	color: #000000;
-	text-shadow: 0px 0px 3px #ffffff, 0px 0px 3px #ffffff;
-	animation: fract 3s linear infinite;
+	text-shadow: 0px 0px 6px #FF0000, 0px 0px 3px #7F0000;
+	animation: ext 3s linear infinite;
 	border: 2px solid #1f1f1f;
-	background: radial-gradient(transparent, #000000), repeating-linear-gradient(90deg,#000764,#206BCB 16%,#EDFFFF 42%,#FFAA00 64.25%,#000200 85.75%,#000764);
+	background: radial-gradient(transparent, #000000), repeating-linear-gradient(90deg, #190000, #B20000 16%, #3F0000 42%, #E50000 64.25%, #260000 85.75%, #190000);
 	font-family: Typewriter;
 	font-weight: bold;
 	border-radius: 4px;
@@ -179,12 +224,12 @@
 	background-size: 200% 100%;
 }
 
-.fractal:hover {
-	color: #ffffff;
-	border: 2px solid #bfbfbf;
-	text-shadow: 0px 0px 3px #000000, 0px 0px 3px #000000;
+.ext:hover {
+	color: #C00000;
+	border: 2px solid #3F0000;
+	text-shadow: 0px 0px 6px #000000, 0px 0px 3px #000000;
 }
-@keyframes fract{ 
+@keyframes ext{ 
 	0%{
 	    background-position: 0% 0%, 0% 0%;
 	}
@@ -192,157 +237,42 @@
 	    background-position: 0% 0%, 200% 200%;
 	}
 }
-.abstract {
-	color: #000000;
-	text-shadow: 0px 0px 3px #000000, 0px 0px 3px #7f7f7f;
-	background: linear-gradient(#000000,#1f1f1f 50%,#000000 100%);
-	border: 2px solid #000000;
-	font-family: Typewriter;
-	font-weight: bold;
-	border-radius: 4px;
-	transition-duration: 0.2s;
-	cursor: pointer;
-}
-.abstract:hover {
-	color: #ffffff;
-	text-shadow: 0px 0px 3px #ffffff, 0px 0px 3px #ffffff
-}
-.cosmo {
-	color: #ffffff;
-	text-shadow: 0px 0px 3px #ffffff, 0px 0px 3px #ffffff;
-	background: #000000;
-	border: 2px solid #000000;
-	font-family: Typewriter;
-	font-weight: bold;
-	border-radius: 4px;
-	transition-duration: 0.2s;
-	cursor: pointer;
-}
-.cosmo:hover {
-	color: #ffffff;
-	text-shadow: 0px 0px 9px #ffffff, 0px 0px 9px #ffffff
-}
-.beyond {
-	color: #efefef;
-	text-shadow: 0px 0px 3px #efefef, 0px 0px 3px #efefef;
-	background: #ffffff;
-	border: 2px solid #efefef;
-	font-family: Typewriter;
-	font-weight: bold;
-	border-radius: 4px;
-	transition-duration: 0.2s;
-	cursor: pointer;
-}
-.beyond:hover {
-	color: #ffffff;
-	text-shadow: 0px 0px 3px #7f7f7f, 0px 0px 3px #7f7f7f;
-}
-.meta {
-	color: #ffffff;
-	text-shadow: 0px 0px 3px #000000;
-	background: radial-gradient(transparent, #ffffff),  linear-gradient(#cccc00, #00cccc 33%, #cc00cc 66%, #cccc00 100%);
-	border: 2px solid #ffffff;
-	font-family: Typewriter;
-	font-weight: bold;
-	border-radius: 4px;
-	animation: meta 3s linear infinite;
-	background-size: 100% 300%;
-	transition-duration: 0.2s
-}
-.meta:hover {
-	text-shadow: 0px 0px 6px #000000;
-	cursor: pointer;
-}
-@keyframes meta { 
-	0%{
-	    background-position: 0% 0%, 0% 0%;
-	}
-	100%{
-	    background-position: 0% 0%, 300% 300%;
-	}
-}
-.unknown {
+.aah {
 	background: #fcfcfc;
-	color: #fcfcfc;
+	color: #000000;
 	border: 2px solid #ffffff;
 	border-radius: 4px;
 	transition-duration: 0.2s
 }
-.unknown:hover {
+.aah:hover {
 	background: #000000;
 	color: #7f7f7f;
 	text-shadow: 0px 0px 3px #3f3f3f;
 	border-color: #000000;
 	cursor: pointer;
 }
-.virtualize {
+.corruption {
 	color: #000000;
-	text-shadow: 0px 0px 3px #ffffff;
-	background: linear-gradient(#000000, transparent 50%, #000000 100%), radial-gradient(circle, #ffffff, #3f9fff 50%, #000000 100%);
-	border: 2px solid transparent;
+	text-shadow: 0px 0px 3px #660000;
+	background: radial-gradient(transparent, #3F0000),  linear-gradient(#B20000, #CC0000 12.5%, #E50000 25%, #FF0000 50%, #E50000 75%, #CC0000 87.5%, #B20000 100%);
+	border: 2px solid #FFFFFF;
 	font-family: Typewriter;
 	font-weight: bold;
 	border-radius: 4px;
+	animation: corruption 3s linear infinite;
+	background-size: 100% 300%;
 	transition-duration: 0.2s
 }
-.virtualize:hover {
-	color: #ffffff;
-	text-shadow: 0px 0px 3px #000000;
-	cursor: pointer
+.corruption:hover {
+	color: #200000;
+	text-shadow: 0px 0px 6px #7F0000, 0px 0px 3px #7F0000;
+	cursor: pointer;
 }
-.digitize {
-	color: #00ff00;
-	text-shadow: 0px 0px 6px #000000, 0px 0px 6px #000000, 0px 0px 6px #000000, 0px 0px 6px #000000, 0px 0px 6px #000000, 0px 0px 6px #000000;
-	background: url("images/digitize.png");
-	border: 2px solid #000000;
-	font-family: Typewriter;
-	font-weight: bold;
-	border-radius: 4px;
-	animation: digitize 3s linear infinite;
-	transition-duration: 0.2s
-}
-.digitize:hover {
-	color: #000000;
-	text-shadow: 0px 0px 6px #00ff00, 0px 0px 6px #00ff00, 0px 0px 6px #00ff00, 0px 0px 6px #00ff00, 0px 0px 6px #00ff00, 0px 0px 6px #00ff00;
-	cursor: pointer
-}
-@keyframes digitize { 
+@keyframes corruption { 
 	0%{
-	    background-position: 0 0;
+	    background-position: 0% 0%, 0% 0%;
 	}
 	100%{
-	    background-position: -20px -40px;
+	    background-position: 0% 0%, 300% 300%;
 	}
-}
-.infinitize {
-	color: #ffffff;
-	text-shadow: 0px 0px 3px #ffffff;
-	background: radial-gradient(circle, #ffffff, #000000 75%, #e59900 100%);
-	border: 2px solid #000000;
-	font-family: Typewriter;
-	font-weight: bold;
-	border-radius: 4px;
-	transition-duration: 0.2s
-}
-.infinitize:hover {
-	color: #000000;
-	text-shadow: 0px 0px 6px #e59900, 0px 0px 6px #e59900, 0px 0px 6px #e59900, 0px 0px 6px #e59900, 0px 0px 6px #e59900, 0px 0px 6px #e59900;
-	cursor: pointer
-}
-.timeless {
-	border: 2px solid #000000;
-	box-shadow: inset 0px 0px 12px 0px #ffffff;
-	color: #001966;
-	text-shadow: 0px 0px 3px #ffffff, 0px 0px 6px #ffffff;
-	background: radial-gradient(circle, #7f7f7f, #000000 25%, transparent 50%), linear-gradient(#ffffff, transparent 33%, transparent 67%, #ffffff 100%), linear-gradient(90deg, #e59900 0%, #b341e0 100%);
-	font-family: Typewriter;
-	font-weight: bold;
-	border-radius: 4px;
-	transition-duration: 0.2s
-}
-.timeless:hover {
-	border-color: #0033cc;
-	box-shadow: inset 0px 0px 12px 0px #0033cc;
-	text-shadow: 0px 0px 3px #0033cc, 0px 0px 6px #0033cc;
-	cursor: pointer
 }
