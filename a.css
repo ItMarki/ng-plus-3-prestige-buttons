@@ -293,7 +293,7 @@
 .digitize {
 	color: #00ff00;
 	text-shadow: 0px 0px 6px #000000, 0px 0px 6px #000000, 0px 0px 6px #000000, 0px 0px 6px #000000, 0px 0px 6px #000000, 0px 0px 6px #000000;
-	background: url("images/digitize.png");
+	background: url("digitize.png");
 	border: 2px solid #000000;
 	font-family: Typewriter;
 	font-weight: bold;
