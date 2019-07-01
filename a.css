@@ -254,8 +254,8 @@
 .corruption {
 	color: #000000;
 	text-shadow: 0px 0px 3px #660000;
-	background: radial-gradient(transparent, #3F0000),  linear-gradient(#B20000, #A00000 12.5%, #E50000 25%, #FF0000 50%, #E50000 75%, #A00000 87.5%, #B20000 100%);
-	border: 2px solid #000000;
+	background: radial-gradient(transparent, #3F0000),  linear-gradient(#B20000, #A80000 12.5%, #E50000 25%, #FF0000 50%, #E50000 75%, #A80000 87.5%, #B20000 100%);
+	border: 2px solid #990000;
 	font-family: Typewriter;
 	font-weight: bold;
 	border-radius: 4px;
