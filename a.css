@@ -2,6 +2,9 @@
     font-family: Typewriter;
     src: url('MonospaceTypewriter.ttf');
 }
+.columns {
+	column-count: 10;
+}
 .before {
 	color: #000000;
     background: #ABB5E6;
