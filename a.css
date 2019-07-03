@@ -30,3 +30,29 @@
 	text-shadow: 0px 0px 3px #7F0000;
         background: #300000;
 }
+.spacebreak {
+        background: #00003F;
+	font-weight: bold;
+        border: 2px solid #40007F;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	animation: spacebreak 3s linear infinite
+}
+.spacebreak:hover {
+        background: #300000;
+}
+@keyframes spacebreak { 
+	0%{
+		color: #720099;
+		text-shadow: 0px 0px 3px #FF3FFF, 0px 0px 6px #FFFFF;
+	}
+	50% {
+		color: #8C00BF;
+		text-shadow: 0px 0px 6px #FF7FFF, 0px 0px 6px #FFFFFF;
+	}
+	100%{
+                color: #720099;
+		text-shadow: 0px 0px 3px #FF3FFF, 0px 0px 6px #FFFFF;
+	}
+}
