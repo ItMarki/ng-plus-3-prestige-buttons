@@ -18,7 +18,7 @@
 .fusion {
 	color: #660000;
 	text-shadow: 0px 0px 3px #3F0000;
-        background: radial-gradient(closest-side, #000000 0%, #300000 75%);
+        background: #300000;
 	font-weight: bold;
         border: 2px solid #FF0000;
 	border-radius: 4px;
@@ -28,6 +28,5 @@
 .fusion:hover {
         color: #FF0000;
 	text-shadow: 0px 0px 3px #7F0000;
-        background: #000000, radial-gradient(closest-side, transparent 0%, #FF7F00 75%);
-	border: 2px solid #FF0000;
+        background: #300000;
 }
