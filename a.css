@@ -2,3 +2,29 @@
     font-family: Typewriter;
     src: url('MonospaceTypewriter.ttf');
 }
+.normal {
+	color: #000000;
+    background: #FFFFFF;
+	font-weight: bold;
+    border: 2px solid #CCCCCC;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+.normal:hover {
+    color: #333333;
+    background: #CCCCCC;
+}
+.normall {
+	color: #000000;
+    background: #FFFFFF;
+	font-weight: bold;
+    border: solid #CCCCCC;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+.normall:hover {
+    color: #333333;
+    background: #CCCCCC;
+}
