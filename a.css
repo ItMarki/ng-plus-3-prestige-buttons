@@ -15,3 +15,16 @@
     color: #000000;
     background: #CCCCCC;
 }
+.normal {
+	color: #333333;
+        background: #FFFFFF;
+	font-weight: bold;
+        border: 1px solid #CCCCCC;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+.normal:hover {
+    color: #000000;
+    background: #CCCCCC;
+}
