@@ -108,7 +108,7 @@
 .fire {
 	color: #FFFF00;
 	text-shadow: 0 0 3px #FFD400, 0 0 4px #FFFFFF;
-	background: radial-gradient(closest-side, transparent 0%, transparent 50%, #FF7F00 100%), radial-gradient(closest-side, #FFC800 0%, #FFFF00 100%);
+	background: radial-gradient(closest-side, transparent 0%, transparent 75%, #FF7F00 100%), radial-gradient(closest-side, #FFC800 0%, #FFFF00 100%);
 	border: 2px solid #FFFF00;
 	font-family: Typewriter;
 	font-weight: bold;
