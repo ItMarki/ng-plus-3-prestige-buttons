@@ -162,8 +162,8 @@
 	text-shadow: 0 0 6px #0FFF00, 0 0 6px #1FFF00, 0 0 8px #40FF70;
 }
 .recre {
-	color: #000000;
-	text-shadow: 0px 0px 3px #FFFFFF, 0px 0px 3px #FFFFFF;
+	color: #7FA1FF;
+	text-shadow: 0px 0px 3px #0043FF, 0px 0px 3px #0043FF;
 	animation: recre 1.5s linear infinite;
 	border: 2px solid #A5BCFF;
 	background: radial-gradient(transparent, #FFFFFF), repeating-linear-gradient(#99B2FF 0%, #668CFF 25%, #3265FF 50%, #668CFF 75%, #99B2FF 100%);
@@ -175,10 +175,10 @@
 	cursor: pointer;
 }
 .recre:hover {
-	color: #FFFFFF;
+	color: #0043FF;
 	animation: recre 1.5s linear infinite;
 	border: 2px solid #A5BCFF;
-	text-shadow: 0px 0px 3px #000000, 0px 0px 3px #000000;
+	text-shadow: 0px 0px 3px #7FA1FF, 0px 0px 3px #7FA1FF;
 	font-weight: bold;
 	background: radial-gradient(transparent, #FFFFFF), repeating-linear-gradient(#99B2FF 0%, #668CFF 25%, #3265FF 50%, #668CFF 75%, #99B2FF 100%);
 	background-size: 100% 200%;
