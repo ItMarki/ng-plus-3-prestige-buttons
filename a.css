@@ -45,15 +45,15 @@
 }
 @keyframes spacebreak { 
 	0%{
-		color: #720099;
+		color: #8C00BF;
 		text-shadow: 0px 0px 3px #FF3FFF, 0px 0px 6px #000033;
 	}
 	50% {
-		color: #8C00BF;
+		color: #A800E5;
 		text-shadow: 0px 0px 3px #FF5FFF, 0px 0px 6px #000033;
 	}
 	100%{
-                color: #720099;
+                color: #8C00BF;
 		text-shadow: 0px 0px 3px #FF3FFF, 0px 0px 6px #000033;
 	}
 }
