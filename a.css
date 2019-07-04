@@ -40,12 +40,12 @@
 	animation: spacebreak 3s linear infinite
 }
 .spacebreak:hover {
-        background: #300000;
+        background: radial-gradient(#00007F, #00003F);
 }
 @keyframes spacebreak { 
 	0%{
 		color: #720099;
-		text-shadow: 0px 0px 3px #FF3FFF, 0px 0px 6px #FFFFF;
+		text-shadow: 0px 0px 3px #FF3FFF, 0px 0px 6px #FFFFFF;
 	}
 	50% {
 		color: #8C00BF;
@@ -53,6 +53,6 @@
 	}
 	100%{
                 color: #720099;
-		text-shadow: 0px 0px 3px #FF3FFF, 0px 0px 6px #FFFFF;
+		text-shadow: 0px 0px 3px #FF3FFF, 0px 0px 6px #FFFFFF;
 	}
 }
