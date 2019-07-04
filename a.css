@@ -166,7 +166,7 @@
 	text-shadow: 0px 0px 3px #FFFFFF, 0px 0px 3px #FFFFFF;
 	animation: recre 1.5s linear infinite;
 	border: 2px solid #E5F2FF;
-	background: radial-gradient(transparent, #FFFFFF), repeating-linear-gradient(#99B2FF 0%, #668CFF 25%, #003FFF 50%, #668CFF 75%, #99B2FF 100%);
+	background: radial-gradient(transparent, #FFFFFF), repeating-linear-gradient(#99B2FF 0%, #668CFF 25%, #3265FF 50%, #668CFF 75%, #99B2FF 100%);
 	background-size: 100% 200%;
 	font-family: Typewriter;
 	font-weight: bold;
@@ -180,7 +180,7 @@
 	border: 2px solid #E5F2FF;
 	text-shadow: 0px 0px 3px #000000, 0px 0px 3px #000000;
 	font-weight: bold;
-	background: radial-gradient(transparent, #FFFFFF), repeating-linear-gradient(#99B2FF 0%, #668CFF 25%, #003FFF 50%, #668CFF 75%, #99B2FF 100%);
+	background: radial-gradient(transparent, #FFFFFF), repeating-linear-gradient(#99B2FF 0%, #668CFF 25%, #3265FF 50%, #668CFF 75%, #99B2FF 100%);
 	background-size: 100% 200%;
 }
 @keyframes recre{ 
