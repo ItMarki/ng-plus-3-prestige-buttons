@@ -161,3 +161,33 @@
 .earth:hover {
 	text-shadow: 0 0 6px #0FFF00, 0 0 6px #1FFF00, 0 0 8px #40FF70;
 }
+.recre {
+	color: #000000;
+	text-shadow: 0px 0px 3px #ffffff;
+	animation: recre 1.5s linear infinite;
+	border: 2px solid #000000;
+	background: radial-gradient(transparent, #000000), repeating-linear-gradient(#ffffff, #3f9fff 50%, #000000 100%);
+	background-size: 100% 200%;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+.recre:hover {
+	color: #ffffff;
+	animation: recre 1.5s linear infinite;
+	border: 2px solid #000000;
+	text-shadow: 0px 0px 3px #000000, 0px 0px 3px #000000;
+	font-weight: bold;
+	background: radial-gradient(transparent, #000000), repeating-linear-gradient(#ffffff, #3f9fff 50%, #000000 100%);
+	background-size: 100% 200%;
+}
+@keyframes recre{ 
+	0%{
+	    background-position: 50% 50%, 0% 0%;
+	}
+	100%{
+	    background-position: 50% 50%, 0% 200%;
+	}
+}
