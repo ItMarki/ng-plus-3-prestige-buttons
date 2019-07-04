@@ -105,3 +105,17 @@
 	    background-position: 50% 50%, 0% 200%;
 	}
 }
+.fire {
+	color: #FFFF00;
+	text-shadow: 0 0 3px #FFD400, 0 0 3px #FFD400, 0 0 4px #000000;
+	background: radial-gradient(closest-side, transparent 0%, transparent 50%, #FF7F00 100%), linear-gradient(#000000, #FFC0FF);
+	border: 2px solid #FFFF00;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+.fire:hover {
+	text-shadow: 0 0 9px #FFD400, 0 0 9px #FFD400, 0 0 12px #000000;
+}
