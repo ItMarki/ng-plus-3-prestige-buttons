@@ -147,3 +147,17 @@
 .water:hover {
 	text-shadow: 0 0 6px #00CEFF, 0 0 6px #00DFFF, 0 0 8px #40A0FF;
 }
+.earth {
+	color: #1FFF00;
+	text-shadow: 0 0 3px #0FFF00, 0 0 3px #1FFF00, 0 0 4px #40FF70;
+	background: radial-gradient(closest-side, #00FF09 0%, #00FF40 100%);
+	border: 2px solid #00FF40;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+.earth:hover {
+	text-shadow: 0 0 6px #0FFF00, 0 0 6px #1FFF00, 0 0 8px #40FF70;
+}
