@@ -119,3 +119,17 @@
 .fire:hover {
 	text-shadow: 0 0 6px #FFB000, 0 0 6px #FFA000, 0 0 8px #FFFF40;
 }
+.water {
+	color: #00DFFF;
+	text-shadow: 0 0 3px #00CEFF, 0 0 3px #00DFFF, 0 0 4px #40A0FF;
+	background: radial-gradient(closest-side, #00B7FF 0%, #0080FF 100%);
+	border: 2px solid #FFFF00;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+.water:hover {
+	text-shadow: 0 0 6px #00CEFF, 0 0 6px #00DFFF, 0 0 8px #40A0FF;
+}
