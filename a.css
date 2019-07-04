@@ -4,7 +4,7 @@
 }
 .metaize {
 	color: #000000;
-	background: #BFBFBF;
+	background: rradial-gradient(#999999, #BFBFBF);
 	font-weight: bold;
 	border: 2px solid #E5E5E5;
 	border-radius: 4px;
