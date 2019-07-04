@@ -106,7 +106,7 @@
 	}
 }
 .fire {
-	color: #FFFF00;
+	color: #FFD000;
 	text-shadow: 0 0 3px #FFD400, 0 0 4px #FFFFFF;
 	background: radial-gradient(closest-side, #FFC800 0%, #FFFF00 100%);
 	border: 2px solid #FFFF00;
