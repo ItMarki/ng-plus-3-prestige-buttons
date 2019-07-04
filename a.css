@@ -41,7 +41,7 @@
 }
 .spacebreak:hover {
         border: 2px solid #40007F;
-	box-shadow: inset 0px 0px 12px 0px #40007F;
+	box-shadow: inset 0px 0px 12px 0px #40007F, inset 0px 0px 8px 0px #40007F;
 }
 @keyframes spacebreak { 
 	0%{
