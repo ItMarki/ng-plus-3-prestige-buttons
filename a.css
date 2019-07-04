@@ -4,14 +4,14 @@
 }
 .metaize {
 	color: #000000;
-	background: radial-gradient(#999999, #BFBFBF);
+	background: radial-gradient(#727272, #BFBFBF);
 	font-weight: bold;
-	border: 2px solid #E5E5E5;
+	border: 2px solid #BFBFBF;
 	border-radius: 4px;
 	transition-duration: 0.2s;
 	cursor: pointer;
 }
 .metaize:hover {
 	color: #FFFFFF;
-	background: radial-gradient(#999999, #BFBFBF);
+	background: radial-gradient(#727272, #BFBFBF);
 }
