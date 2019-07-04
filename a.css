@@ -58,6 +58,19 @@
 }
 .fourdt:hover {
         color: #00FF00;
-	text-shadow: 0px 0px 6px #005000;
         background: #00C000;
+}
+.seek {
+	color: #006700;
+	text-shadow: 0px 0px 6px #003700;
+        background: #00E600;
+	font-weight: bold;
+        border: 2px solid #00BF00;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+.seek:hover {
+        color: #00E600;
+        background: #00A700;
 }
