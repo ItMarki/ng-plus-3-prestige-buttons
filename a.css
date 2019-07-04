@@ -107,8 +107,8 @@
 }
 .fire {
 	color: #FFFF00;
-	text-shadow: 0 0 2px #FFD400, 0 0 3px #FFFFFF;
-	background: radial-gradient(closest-side, transparent 0%, transparent 50%, #FF7F00 100%), radial-gradient(closest-side, #FFFFFF 0%, #FFFFC0 100%);
+	text-shadow: 0 0 3px #FFD400, 0 0 4px #FFFFFF;
+	background: radial-gradient(closest-side, transparent 0%, transparent 50%, #FF7F00 100%), radial-gradient(closest-side, #FFC800 0%, #FFFF00 100%);
 	border: 2px solid #FFFF00;
 	font-family: Typewriter;
 	font-weight: bold;
@@ -117,5 +117,5 @@
 	cursor: pointer;
 }
 .fire:hover {
-	text-shadow: 0 0 4px #FFD400, 0 0 6px #FFFFFF;
+	text-shadow: 0 0 6px #FFD400, 0 0 8px #FFFFFF;
 }
