@@ -33,15 +33,15 @@
 .spacebreak {
         background: radial-gradient(#00003F, #00007F);
 	font-weight: bold;
-        border: 2px solid #40007F;
+        border: 2px solid #4C0099;
 	border-radius: 4px;
 	transition-duration: 0.2s;
 	cursor: pointer;
 	animation: spacebreak 3s linear infinite
 }
 .spacebreak:hover {
-        border: 2px solid #40007F;
-	box-shadow: inset 0px 0px 12px 0px #40007F, inset 0px 0px 8px 0px #40007F;
+        border: 2px solid #4C0099;
+	box-shadow: inset 0px 0px 12px 0px #4C0099, inset 0px 0px 8px 0px #4C0099;
 }
 @keyframes spacebreak { 
 	0%{
