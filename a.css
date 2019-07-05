@@ -222,8 +222,8 @@
 
 .rebu:hover {
 	color: #D166FF;
-	border: 2px solid #FFFFFF;
-	text-shadow: 0px 0px 3px #FFFFFF, 0px 0px 3px #FFFFFF;
+	border: 2px solid #DD99FF;
+	text-shadow: 0px 0px 3px #EECCFF, 0px 0px 3px #EECCFF;
 }
 @keyframes rebu{ 
 	0%{
