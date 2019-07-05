@@ -207,11 +207,11 @@
 	text-shadow: 0px 0px 3px #FFFFFF, 0px 0px 3px #FFFFFF;
 }
 .rebu {
-	color: #000000;
-	text-shadow: 0px 0px 3px #ffffff, 0px 0px 3px #ffffff;
+	color: #FFFFFF;
+	text-shadow: 0px 0px 3px #E5AAFF, 0px 0px 3px #E5AAFF;
 	animation: rebu 3s linear infinite;
-	border: 2px solid #1f1f1f;
-	background: radial-gradient(transparent, #FFFFFF), repeating-linear-gradient(90deg, #E17FFF, #D866FF 16%, #B600FF 42%, #CF4CFF 64.25%, #C532FF 85.75%, #E17FFF);
+	border: 2px solid #AE00FF;
+	background: radial-gradient(transparent, transparent 30%, #FFFFFF), repeating-linear-gradient(90deg, #E17FFF, #D866FF 16%, #B600FF 42%, #CF4CFF 64.25%, #C532FF 85.75%, #E17FFF);
 	font-family: Typewriter;
 	font-weight: bold;
 	border-radius: 4px;
@@ -221,9 +221,9 @@
 }
 
 .rebu:hover {
-	color: #ffffff;
-	border: 2px solid #bfbfbf;
-	text-shadow: 0px 0px 3px #000000, 0px 0px 3px #000000;
+	color: #D166FF;
+	border: 2px solid #FFFFFF;
+	text-shadow: 0px 0px 3px #FFFFFF, 0px 0px 3px #FFFFFF;
 }
 @keyframes rebu{ 
 	0%{
