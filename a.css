@@ -268,6 +268,26 @@ b {
 	border: 2px solid #ffdf3f;
 }
 
+.starnew {
+	color: #7f3f00;
+	text-shadow: 0 0 3px transparent, 0 0 6px #ffdf7f;
+	background: radial-gradient(#ffbf00, #ff7f00);
+	background-size: 300% 300%;
+	background-position: 100% 100%;
+	border: 2px solid #ffbf00;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+.starnew:hover {
+	box-shadow: inset 0px 0px 24px 0px #ff3f00;
+	border-color: #ff3f00;
+	color: #ff6f3f;
+	text-shadow: 0 0 3px black, 0 0 6px #7f1f00;
+}
+
 .universe {
 	color: #7fbfff;
 	text-shadow: 0 0 3px #7fbfff, 0 0 3px #7fbfff, 0 0 4px #000000;
@@ -307,6 +327,57 @@ b {
 	}
 	100%{
 	    background-position: 0% 0%, 200% 200%;
+	}
+}
+
+.omninew {
+	border: 2px solid rgba(255,255,255,0);
+	border-radius: 4px;
+	font-family: Typewriter;
+	font-weight: bold;
+	transition-duration: 0.2s;
+	animation: omninew 6s linear infinite;
+	cursor: pointer
+}
+.omninew:hover {
+	border: 2px solid rgba(255,255,255,0.5);
+	text-shadow: 0px 0px 6px #000000, 0px 0px 3px #000000;
+}
+@keyframes omninew { 
+	0%{
+		background: #7f0000;
+		box-shadow: inset 0px 0px 12px 0px #ff0000;
+		color: #ff7f7f
+	}
+	16%{
+		background: #7f7f00;
+		box-shadow: inset 0px 0px 12px 0px #ffff00;
+		color: #ffff7f
+	}
+	33%{
+		background: #007f00;
+		box-shadow: inset 0px 0px 12px 0px #00ff00;
+		color: #7fff7f
+	}
+	50%{
+		background: #007f7f;
+		box-shadow: inset 0px 0px 12px 0px #00ffff;
+		color: #7fffff
+	}
+	67%{
+		background: #00007f;
+		box-shadow: inset 0px 0px 12px 0px #0000ff;
+		color: #7f7fff
+	}
+	83%{
+		background: #7f007f;
+		box-shadow: inset 0px 0px 12px 0px #ff00ff;
+		color: #ff7fff
+	}
+	100%{
+		background: #7f0000;
+		box-shadow: inset 0px 0px 12px 0px #ff0000;
+		color: #ff7f7f
 	}
 }
 
@@ -616,4 +687,20 @@ b {
 	border-color: #000000;
 	color: #bfbfbf;
 	text-shadow: 0px 0px 3px #7f7f7f, 0px 0px 3px #7f7f7f;
+}
+
+.metempric {
+	color: #000000;
+	text-shadow: 0px 0px 3px #7f7f7f, 0px 0px 3px #ffffff;
+	background: linear-gradient(#000000,#1f1f1f 50%,#000000 100%);
+	border: 2px solid #000000;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+.metempric:hover {
+	color: #ffffff;
+	text-shadow: 0px 0px 3px #ffffff, 0px 0px 3px #ffffff
 }
