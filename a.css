@@ -216,7 +216,7 @@
 }
 .ext {
 	background: black;
-	border: 2px solid #1f1f1f;
+	border: 2px solid #1f0000;
 	border-radius: 4px;
 	box-shadow: inset 0px 0px 24px 0px #7f0000;
 	font-weight: bold;
@@ -226,7 +226,7 @@
 }
 .ext:hover {
 	background: #ff0000;
-	box-shadow: inset 0px 0px 24px 0px #ff0000;
+	box-shadow: inset 0px 0px 24px 0px #bf0000;
 	border-color: #3f0000;
 	color: #800000;
 	cursor: pointer
