@@ -141,7 +141,7 @@
 	cursor: pointer;
 }
 .sight:hover {
-	box-shadow: inset 0px 0px 24px 0px #ff6000;
+	box-shadow: inset 0px 0px 24px 0px #ffaf00;
 	border-color: #ff9000;
 	color: #ff9933;
 	text-shadow: 0 0 6px #b07f00;
