@@ -215,31 +215,21 @@
 	}
 }
 .ext {
-	color: #000000;
-	text-shadow: 0px 0px 6px #FF0000, 0px 0px 3px #7F0000;
-	animation: ext 3s linear infinite;
+	background: black;
 	border: 2px solid #1f1f1f;
-	background: radial-gradient(transparent, #000000), repeating-linear-gradient(90deg, #190000, #B20000 16%, #3F0000 42%, #E50000 64.25%, #260000 85.75%, #190000);
-	font-family: Typewriter;
-	font-weight: bold;
 	border-radius: 4px;
+	box-shadow: inset 0px 0px 24px 0px #00007f;
+	font-weight: bold;
+	text-shadow: 0px 0px 6px #FF0000, 0px 0px 3px #7F0000;
+	color: #000000;
 	transition-duration: 0.2s;
-	cursor: pointer;
-	background-size: 200% 100%;
 }
-
 .ext:hover {
-	color: #C00000;
-	border: 2px solid #3F0000;
-	text-shadow: 0px 0px 6px #000000, 0px 0px 3px #000000;
-}
-@keyframes ext{ 
-	0%{
-	    background-position: 0% 0%, 0% 0%;
-	}
-	100%{
-	    background-position: 0% 0%, 200% 200%;
-	}
+	background: #ff0000;
+	box-shadow: inset 0px 0px 24px 0px #0000ff;
+	border-color: #3f0000;
+	color: #800000;
+	cursor: pointer
 }
 .aah {
 	background: #fcfcfc;
