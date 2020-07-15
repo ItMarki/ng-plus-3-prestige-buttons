@@ -260,17 +260,17 @@
 }
 @keyframes corruption { 
 	0%{
-		background: #7f0000;
+		background: #900000;
 		box-shadow: inset 0px 0px 12px 0px #ff0000;
 		color: #c00000
 	}
 	50%{
 		background: #600000;
 		box-shadow: inset 0px 0px 12px 0px #c00000;
-		color: #900000
+		color: #800000
 	}
 	100%{
-		background: #7f0000;
+		background: #900000;
 		box-shadow: inset 0px 0px 12px 0px #ff0000;
 		color: #c00000
 	}
