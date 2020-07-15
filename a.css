@@ -251,7 +251,7 @@
 	font-family: Typewriter;
 	font-weight: bold;
 	transition-duration: 0.2s;
-	animation: corrupt 6s linear infinite;
+	animation: corruption 6s linear infinite;
 	cursor: pointer
 }
 .corruption:hover {
