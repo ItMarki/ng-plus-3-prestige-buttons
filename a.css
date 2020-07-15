@@ -141,10 +141,10 @@
 	cursor: pointer;
 }
 .sight:hover {
-	box-shadow: inset 0px 0px 24px 0px #ff5f00;
-	border-color: #ff7f00;
+	box-shadow: inset 0px 0px 24px 0px #ff7f00;
+	border-color: #ff6000;
 	color: #ff9933;
-	text-shadow: 0 0 6px #7f7f00;
+	text-shadow: 0 0 3px #c07f00;
 }
 .line {
 	color: #000000;
