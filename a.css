@@ -142,9 +142,9 @@
 }
 .sight:hover {
 	box-shadow: inset 0px 0px 24px 0px #ff3f00;
-	border-color: #ff3f00;
-	color: #ff6f3f;
-	text-shadow: 0 0 3px black, 0 0 6px #7f1f00;
+	border-color: #ff6600;
+	color: #ff9933;
+	text-shadow: 0 0 3px #3f3f00, 0 0 6px #7f7f00;
 }
 .line {
 	color: #000000;
