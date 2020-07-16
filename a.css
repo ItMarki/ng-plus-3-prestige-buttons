@@ -292,8 +292,7 @@
 	color: rgba(255,255,255,0.8);
 	text-shadow: 0px 0px 3px rgba(0,0,0,0.5);
 	transition-duration: 0.2s;
-	cursor: pointer;
-	animation: squared 5s linear infinite
+	cursor: pointer
 }
 .squared:hover {
 	box-shadow: inset 0px 0px 24px 0px white;
@@ -310,6 +309,7 @@
 	top: calc(-50vmax + 50%);
 	left: calc(-50vmax + 50%);
 	z-index: -1;
+	animation: squared 5s linear infinite
 }
 @keyframes squared { 
 	0%{
