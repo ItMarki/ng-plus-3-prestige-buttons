@@ -280,7 +280,7 @@
 	}
 }
 
-.bor {
+.squared {
 	position: relative;
 	background: transparent;
 	box-shadow: inset 0px 0px 24px 0px black;
@@ -294,13 +294,13 @@
 	transition-duration: 0.2s;
 	cursor: pointer
 }
-.bor:hover {
+.squared:hover {
 	box-shadow: inset 0px 0px 24px 0px white;
 	border-color: #bfbfbf;
 	color: white;
 	text-shadow: 0px 0px 3px white
 }
-.bor.bg {
+.squared.bg {
 	position: absolute;
 	background: conic-gradient(#ff0000, #00ff00, #0000ff, #ff0000);
 	background-size: contain;
@@ -309,9 +309,9 @@
 	top: calc(-50vmax + 50%);
 	left: calc(-50vmax + 50%);
 	z-index: -1;
-	animation: bor 5s linear infinite
+	animation: squared 5s linear infinite
 }
-@keyframes bor { 
+@keyframes squared { 
 	0%{
 	    transform: none
 	}
