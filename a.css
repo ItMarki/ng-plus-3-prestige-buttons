@@ -2,6 +2,11 @@
     font-family: Typewriter;
     src: url('MonospaceTypewriter.ttf');
 }
+button {
+	font-family: Typewriter;
+	font-size: 20px;
+	display: inline-block
+}
 .before {
 	color: #000000;
     background: #ABB5E6;
@@ -65,7 +70,7 @@
 	animation: box 3s linear infinite
 }
 .box:hover {
-	border-color: rgba(255,255,255,0.85);
+	border-color: rgba(255,255,255,0.5);
 	box-shadow: inset 0px 0px 12px 0px #FFFFFFF;
 	cursor: pointer
 }
@@ -128,34 +133,42 @@
 	}
 }
 .sight {
-	color: #000000;
-	text-shadow: 0px 0px 3px #FFBF00;
-	background: linear-gradient(#FF6A00, transparent 50%, #FF6A00 100%), radial-gradient(circle, #FFAA00, #FFD400 50%, #FFFF00 100%);
-	border: 2px solid transparent;
+	color: #7f3f00;
+	text-shadow: 0 0 3px transparent, 0 0 6px #ffdf7f;
+	background: radial-gradient(#ffbf00, #ff7f00);
+	background-size: 300% 300%;
+	background-position: 100% 100%;
+	border: 2px solid #ffbf00;
 	font-family: Typewriter;
 	font-weight: bold;
 	border-radius: 4px;
-	transition-duration: 0.2s
+	transition-duration: 0.2s;
+	cursor: pointer;
 }
 .sight:hover {
-	color: #ffffff;
-	text-shadow: 0px 0px 3px #FFFF00;
-	cursor: pointer
+	box-shadow: inset 0px 0px 24px 0px #ffaf00;
+	border-color: #ff9000;
+	color: #ffbf1f;
+	text-shadow: 0 0 3px #d09000, 0 0 6px #d09000;
 }
 .line {
-	color: #000000;
-	text-shadow: 0px 0px 3px #BDBDBD;
-	background: linear-gradient(#8B8B8B, transparent 50%, #8B8B8B 100%), radial-gradient(circle, #B0B0B0, #C9C9C9 50%, #E2E2E2 100%);
-	border: 2px solid transparent;
+	color: #4b4b4b;
+	text-shadow: 0 0 3px transparent, 0 0 6px #dedede;
+	background: radial-gradient(#bdbdbd, #979797);
+	background-size: 300% 300%;
+	background-position: 100% 100%;
+	border: 2px solid #bdbdbd;
 	font-family: Typewriter;
 	font-weight: bold;
 	border-radius: 4px;
-	transition-duration: 0.2s
+	transition-duration: 0.2s;
+	cursor: pointer;
 }
 .line:hover {
-	color: #ffffff;
-	text-shadow: 0px 0px 3px #E2E2E2;
-	cursor: pointer
+	box-shadow: inset 0px 0px 24px 0px #b3b3b3;
+	border-color: #a1a1a1;
+	color: #c0c0c0;
+	text-shadow: 0 0 3px #939393, 0 0 6px #939393;
 }
 .metabox {
 	background: linear-gradient(#2EFE43, #AFFEDA);
@@ -167,7 +180,7 @@
 	animation: metabox 3s linear infinite
 }
 .metabox:hover {
-	border-color: rgba(255,255,255,0.85);
+	border-color: rgba(255,255,255,0.5);
 	box-shadow: inset 0px 0px 12px 0px #FFFFFF;
 	cursor: pointer
 }
@@ -211,31 +224,21 @@
 	}
 }
 .ext {
-	color: #000000;
-	text-shadow: 0px 0px 6px #FF0000, 0px 0px 3px #7F0000;
-	animation: ext 3s linear infinite;
-	border: 2px solid #1f1f1f;
-	background: radial-gradient(transparent, #000000), repeating-linear-gradient(90deg, #190000, #B20000 16%, #3F0000 42%, #E50000 64.25%, #260000 85.75%, #190000);
-	font-family: Typewriter;
-	font-weight: bold;
+	background: black;
+	border: 2px solid #1f0000;
 	border-radius: 4px;
+	box-shadow: inset 0px 0px 24px 0px #7f0000;
+	font-weight: bold;
+	text-shadow: 0px 0px 6px #FF0000, 0px 0px 3px #7F0000;
+	color: #000000;
 	transition-duration: 0.2s;
-	cursor: pointer;
-	background-size: 200% 100%;
 }
-
 .ext:hover {
-	color: #C00000;
-	border: 2px solid #3F0000;
-	text-shadow: 0px 0px 6px #000000, 0px 0px 3px #000000;
-}
-@keyframes ext{ 
-	0%{
-	    background-position: 0% 0%, 0% 0%;
-	}
-	100%{
-	    background-position: 0% 0%, 200% 200%;
-	}
+	background: #ff0000;
+	box-shadow: inset 0px 0px 24px 0px #a00000;
+	border-color: #600000;
+	color: #600000;
+	cursor: pointer
 }
 .aah {
 	background: #fcfcfc;
@@ -252,27 +255,32 @@
 	cursor: pointer;
 }
 .corruption {
-	color: #000000;
-	text-shadow: 0px 0px 3px #660000;
-	background: radial-gradient(transparent, #3F0000),  linear-gradient(#B20000, #CC0000 12.5%, #E50000 25%, #FF0000 50%, #E50000 75%, #CC0000 87.5%, #B20000 100%);
-	border: 2px solid #FFFFFF;
+	border: 2px solid rgba(255,255,255,0);
+	border-radius: 4px;
 	font-family: Typewriter;
 	font-weight: bold;
-	border-radius: 4px;
-	animation: corruption 3s linear infinite;
-	background-size: 100% 300%;
-	transition-duration: 0.2s
+	transition-duration: 0.2s;
+	animation: corruption 6s linear infinite;
+	cursor: pointer
 }
 .corruption:hover {
-	color: #200000;
-	text-shadow: 0px 0px 6px #7F0000, 0px 0px 3px #7F0000;
-	cursor: pointer;
+	border: 2px solid rgba(0,0,0,0.5);
+	text-shadow: 0px 0px 6px #000000, 0px 0px 3px #000000;
 }
 @keyframes corruption { 
 	0%{
-	    background-position: 0% 0%, 0% 0%;
+		background: #900000;
+		box-shadow: inset 0px 0px 12px 0px #ff0000;
+		color: #d00000
+	}
+	50%{
+		background: #600000;
+		box-shadow: inset 0px 0px 12px 0px #c00000;
+		color: #950000
 	}
 	100%{
-	    background-position: 0% 0%, 300% 300%;
+		background: #900000;
+		box-shadow: inset 0px 0px 12px 0px #ff0000;
+		color: #d00000
 	}
 }
