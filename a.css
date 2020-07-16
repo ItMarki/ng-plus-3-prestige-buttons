@@ -147,19 +147,23 @@
 	text-shadow: 0 0 3px #d09000, 0 0 6px #d09000;
 }
 .line {
-	color: #000000;
-	text-shadow: 0px 0px 3px #BDBDBD;
-	background: linear-gradient(#8B8B8B, transparent 50%, #8B8B8B 100%), radial-gradient(circle, #B0B0B0, #C9C9C9 50%, #E2E2E2 100%);
-	border: 2px solid transparent;
+	color: #4b4b4b;
+	text-shadow: 0 0 3px transparent, 0 0 6px #dedede;
+	background: radial-gradient(#bdbdbd, #979797);
+	background-size: 300% 300%;
+	background-position: 100% 100%;
+	border: 2px solid #bdbdbd;
 	font-family: Typewriter;
 	font-weight: bold;
 	border-radius: 4px;
-	transition-duration: 0.2s
+	transition-duration: 0.2s;
+	cursor: pointer;
 }
 .line:hover {
-	color: #ffffff;
-	text-shadow: 0px 0px 3px #E2E2E2;
-	cursor: pointer
+	box-shadow: inset 0px 0px 24px 0px #b3b3b3;
+	border-color: #a1a1a1;
+	color: #c0c0c0;
+	text-shadow: 0 0 3px #939393, 0 0 6px #939393;
 }
 .metabox {
 	background: linear-gradient(#2EFE43, #AFFEDA);
