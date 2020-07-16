@@ -171,7 +171,7 @@
 	animation: metabox 3s linear infinite
 }
 .metabox:hover {
-	border-color: rgba(255,255,255,0.85);
+	border-color: rgba(255,255,255,0.33);
 	box-shadow: inset 0px 0px 12px 0px #FFFFFF;
 	cursor: pointer
 }
