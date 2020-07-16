@@ -307,7 +307,7 @@ button {
 }
 .squared.bg {
 	position: absolute;
-	background: conic-gradient(#ff4040, #ffff40, #40ff40, #40ffff, #4040ff, #ff40ff, #ff4040);
+	background: conic-gradient(#ff8080, #ffff80, #80ff80, #80ffff, #8080ff, #ff80ff, #ff8080);
 	background-size: contain;
 	height: 100vmax;
 	width: 100vmax;
