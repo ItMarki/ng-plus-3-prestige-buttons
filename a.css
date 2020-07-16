@@ -2,6 +2,11 @@
     font-family: Typewriter;
     src: url('MonospaceTypewriter.ttf');
 }
+button {
+	font-family: Typewriter;
+	font-size: 20px;
+	display: inline-block
+}
 .before {
 	color: #000000;
     background: #ABB5E6;
