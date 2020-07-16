@@ -294,15 +294,15 @@ button {
 	overflow: hidden;
 	font-family: Typewriter;
 	font-weight: bold;
-	color: rgba(255,255,255,0.85);
+	color: rgba(255,255,255,0.75);
 	text-shadow: 0px 0px 3px rgba(0,0,0,0.66);
 	transition-duration: 0.2s;
 	cursor: pointer
 }
 .squared:hover {
 	box-shadow: inset 0px 0px 24px 0px white;
-	border-color: #c0c0c0;
-	color: rgba(255,255,255,0.95);
+	border-color: #d8d8d8;
+	color: rgba(255,255,255,0.85);
 	text-shadow: 0px 0px 3px white
 }
 .squared.bg {
